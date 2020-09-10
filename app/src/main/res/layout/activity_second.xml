@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="second activity"
+        android:textSize="40sp"/>
+
+    <Button
+    android:layout_gravity="center"
+    android:id="@+id/btn_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="main activity"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="second activity"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="third activity"/>
+
+</LinearLayout>
